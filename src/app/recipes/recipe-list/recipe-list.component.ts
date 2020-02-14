@@ -16,8 +16,8 @@ recipe:Recipe[]=[
   constructor() { }
 
   ngOnInit() {}
-  OnSelected(recpe:Recipe){
-    this.recpieSelected.emit(recpe);
+  OnSelected(rcpe:Recipe){
+    this.recpieSelected.emit(rcpe);
   }
 
 }
